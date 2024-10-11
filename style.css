@@ -34,6 +34,12 @@
     
 
 }
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 .nav{
     margin: 10px;
 }
@@ -142,4 +148,8 @@ ul{
     .offer, .why-choose-us, .services {
         padding: 20px;
     }
+}
+.bg-background {
+    display: flex;
+
 }
