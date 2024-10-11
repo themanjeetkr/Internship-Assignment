@@ -80,6 +80,7 @@
     max-width: 1170px;
     margin: auto;
 }
+/* row-section */
 .row{
     display: flex;
     flex-wrap: wrap;
