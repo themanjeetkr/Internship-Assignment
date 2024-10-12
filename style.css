@@ -11,6 +11,47 @@
   scroll-behavior: smooth;  
 }
 
+/* mobile menu */
+.checkbtn{
+    font-size: 30px;
+    color: #ff8c00;
+    float: right;
+    line-height:80px ;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+/* media-query */
+@media(max-width:952px)
+{
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+
+    }
+    a{
+        font-size: 16px;
+    }
+
+}
+@media(max-width:858px ){
+    .checkbtn{
+        display: block;
+    }
+    ol{
+        position: fixed ;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: 0px;
+        text-align: center;
+    }
+    
+}
+
 /* Header */
 .header{
     display: flex;
@@ -365,6 +406,15 @@ ul{
     .footer-col {
         width: 100%;
         text-align: center;
+    }
+    .categories-boxes{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    .why-choose-us{
+        width: 100%;
     }
 
     .categories-head {
